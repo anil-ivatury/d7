@@ -14,8 +14,10 @@
 
   ;stylesheets[all][] = css/overrides.css
   stylesheets[all][] = css/main.css
-
-scripts[] = js/script.js
+  stylesheets[all][] = css/font.css
+  
+  ;scripts
+  scripts[] = js/script.js
   ; Internet Explorer Stylesheets
   ;
   ; AT can load stylesheets in conditional comments from the info file.

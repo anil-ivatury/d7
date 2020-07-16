@@ -16,6 +16,8 @@ function bancolombia_theme_preprocess_html(&$vars) {
    drupal_add_css('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap', array('type' => 'external'));
    drupal_add_js('https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', array('type' => 'external'));
    drupal_add_js('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js', array('type' => 'external'));
+   
+   
 }
 /**
  * Implements hook_css_alter().

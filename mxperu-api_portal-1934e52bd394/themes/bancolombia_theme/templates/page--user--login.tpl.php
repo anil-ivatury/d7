@@ -61,7 +61,7 @@
   <div id="columns1" <?php print $page['menu_bar'] ? 'class="no-menu-bar"' : ''; ?>>
     <div class="columns-inner1 clearfix">
 
-      <?php print $messages; ?>
+    
       <?php print render($page['help']); ?>
       <?php print render($page['secondary_content']); ?>
 
@@ -134,6 +134,7 @@
                   <p class="title">API Portal</p>
                   <span class="bajada">Thursday, July 31, 2019 10:06 am</span>
                 </div>
+				  <?php print $messages; ?>
 				  <?php if ($content = render($page['content'])): ?>
 					<div id="content">
 					  <?php print $content; ?>
