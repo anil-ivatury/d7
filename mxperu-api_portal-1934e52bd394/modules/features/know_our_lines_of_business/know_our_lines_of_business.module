@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @file
+ * Code for the know our lines of business feature.
+ */
+
+include_once 'know_our_lines_of_business.features.inc';

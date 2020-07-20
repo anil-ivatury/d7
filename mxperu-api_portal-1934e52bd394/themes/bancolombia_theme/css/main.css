@@ -1272,3 +1272,17 @@ input[type="text"]:focus{
 .g-fixed {
  margin-bottom: 10vh;
 }
+#messages  div.messages{
+	margin:0!important;
+	background-color: inherit;
+	border:none;
+	color:inherit;
+	font-size:14px;
+	padding: 0px 0px 0px 40px!important;
+}
+#columns1{
+	margin-top:70px;
+}
+.page-user-login ul.tabs{
+	display:none;
+}

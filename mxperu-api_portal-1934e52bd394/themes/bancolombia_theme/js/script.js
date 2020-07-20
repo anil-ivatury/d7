@@ -11,6 +11,11 @@ $("#user-login  .form-item-name input").addClass("input");
 $("#user-login  .form-item-name input").attr("required","required");
 $("#user-login  .form-item-pass input").attr("required","required");
  $("#user-login  .form-item-pass").addClass("block-input");
+$(".page-user-login #messages").addClass("g-alert");
+$("#block-views-line-of-business-block .view-line-of-business").addClass("row mt-4 mb-2");
+$("#block-views-line-of-business-block .view-line-of-business .view-content").addClass("d-flex g-box-scoll");
+$("#block-views-line-of-business-block .view-line-of-business .view-content .views-row").addClass("h-ph--15 h-w-md--100");
+$("#block-views-line-of-business-block").addClass("container");
 
  
  $("#user-login  .form-item-pass label").insertAfter("#user-login  .form-item-pass .form-text");

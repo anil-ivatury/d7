@@ -57,7 +57,7 @@
 
 
   <div id="columns1" <?php print $page['menu_bar'] ? 'class="no-menu-bar"' : ''; ?>>
-    <div class="columns-inner clearfix">
+    <div class="columns-inner1 clearfix">
 
       <?php print $messages; ?>
       <?php print render($page['help']); ?>
@@ -119,8 +119,12 @@
 
             </header>
           <?php endif; ?>
+		  
           <?php print render($title_suffix); ?>
-
+          <?php if ($tabs) {?><div class="tabs">
+	      <?php  print render($tabs);
+          ?></div><?php }
+          ?>
           <!-- region: Main Content -->
           <?php if ($content = render($page['content'])): ?>
             <div id="content">
