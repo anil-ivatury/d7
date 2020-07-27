@@ -42,6 +42,11 @@
                 <div class="nav">
                  <?php print render($page['menu_bar']); ?>
                   <div class="user">
+				  <div class="user-info">
+				     <div class="img">
+                          <img src="<?php echo base_path().path_to_theme(); ?>/images/photo-user.jpg" alt="">
+                        </div>
+						</div>
                      <?php print render($page['header']); ?>
                   </div>
                 </div>

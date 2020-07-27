@@ -1278,7 +1278,7 @@ input[type="text"]:focus{
 	border:none;
 	color:inherit;
 	font-size:14px;
-	padding: 0px 0px 0px 40px!important;
+	padding: 0px 0px 0px 55px!important;
 }
 #columns1{
 	margin-top:70px;
@@ -1286,3 +1286,33 @@ input[type="text"]:focus{
 .page-user-login ul.tabs{
 	display:none;
 }
+/*delete this temp fix*/
+ .user-info {
+    padding-bottom: 0;
+    border-bottom: 0;
+    height: 70px;
+        float: left;
+    cursor: pointer;
+    padding-top: 10px;
+    
+  }
+.user-info .img img{
+	border-radius:50%;
+}
+  .user-info .img {
+    height: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    width: 40px;
+	
+  }
+
+  .user-info .text {
+    padding-left: 10px;
+  }
+  .not-logged-in .user-info {
+	  display:none;
+  }
+  div.error {
+    background-image: url(../images/cross.png);
+  }
