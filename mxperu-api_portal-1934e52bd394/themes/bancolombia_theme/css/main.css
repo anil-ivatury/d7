@@ -1316,3 +1316,35 @@ input[type="text"]:focus{
   div.error {
     background-image: url(../images/cross.png);
   }
+  .dropitmenu li .dropdown-menu {
+    display: block!important;
+}
+.dropitmenu .dropdown-menu {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 27px -2px rgba(3, 14, 32, 0.11);
+    display: none;
+    flex-direction: column;
+    min-width: 200px;
+    padding: 0 20px!important;
+    position: absolute;
+    z-index: 1;
+}
+body .dropitmenu .dropdown-menu li{
+	width:100%;
+}
+body .dropitmenu .dropdown-menu li a {
+    border-bottom: 1px solid #e6e7e8;
+    color: #292929;
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 49px;
+	line-height: 49px;
+    margin: 0;
+    padding: 0;
+    height: initial;
+	display:block;
+}
+.dropitmenu .dropdown-menu li a:hover{
+	border-bottom: 1px solid #e6e7e8!important;
+}

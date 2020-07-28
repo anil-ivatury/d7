@@ -16,7 +16,7 @@ $("#block-views-line-of-business-block .view-line-of-business").addClass("row mt
 $("#block-views-line-of-business-block .view-line-of-business .view-content").addClass("d-flex g-box-scoll");
 $("#block-views-line-of-business-block .view-line-of-business .view-content .views-row").addClass("h-ph--15 h-w-md--100");
 $("#block-views-line-of-business-block").addClass("container");
-
+//$(".dropdown-content  .g-btn").append('<div>I am new here</div>'); ;
  
  $("#user-login  .form-item-pass label").insertAfter("#user-login  .form-item-pass .form-text");
  $("#user-login  .form-item-name label").insertAfter("#user-login  .form-item-name .form-text");
