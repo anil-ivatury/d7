@@ -1,0 +1,127 @@
+/*custom styles*/
+#logo1 img.site-logo {
+    height: auto; 
+    width: 90px;
+}
+#page > header {
+    background-color: #fff;
+}
+.node-content img {
+    border:none;
+    padding: 0;
+}
+article .node-content{padding: 0;}
+.region-header .region-inner{
+	margin-top:0;
+}
+div .footer {
+    text-align: left;
+}
+.ui-dialog,
+#user-login .description,
+#user-login h3{display:none!important;}
+
+#user-login input[type="text"],
+#user-login input[type="password"]{
+	border:none!important;
+	    border-bottom: 2px solid #808285!important;
+	padding:0;
+}
+input[type="text"]:focus{
+	box-shadow:none;
+}
+.not-logged-in.page-user-login .header .nav {
+	justify-content: flex-end;
+}
+#block-menu-login-menu li a, #block-menu-login-menu .menu li a{
+	display:flex;
+	padding:0;
+}
+#user-login label{
+	font-weight:normal;
+}
+.home{
+	overflow:hidden;
+}
+#user-login .form-submit{
+	border-bottom:none;
+}
+.g-fixed {
+ margin-bottom: 10vh;
+}
+#messages  div.messages{
+	margin:0!important;
+	background-color: inherit;
+	border:none;
+	color:inherit;
+	font-size:14px;
+	padding: 0px 0px 0px 55px!important;
+}
+#columns1{
+	margin-top:70px;
+}
+.page-user-login ul.tabs{
+	display:none;
+}
+/*delete this temp fix*/
+ .user-info {
+    padding-bottom: 0;
+    border-bottom: 0;
+    height: 70px;
+        float: left;
+    cursor: pointer;
+    padding-top: 10px;
+    
+  }
+.user-info .img img{
+	border-radius:50%;
+}
+  .user-info .img {
+    height: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    width: 40px;
+	
+  }
+
+  .user-info .text {
+    padding-left: 10px;
+  }
+  .not-logged-in .user-info {
+	  display:none;
+  }
+  div.error {
+    background-image: url(../images/cross.png);
+  }
+  .dropitmenu li:hover .dropdown-menu {
+    display: block!important;
+}
+.dropitmenu .dropdown-menu {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 27px -2px rgba(3, 14, 32, 0.11);
+    display: none;
+    flex-direction: column;
+    min-width: 200px;
+    padding: 0 20px!important;
+    position: absolute;
+    z-index: 1;
+}
+body .dropitmenu .dropdown-menu li{
+	width:100%;
+}
+body .dropitmenu .dropdown-menu li a {
+    border-bottom: 1px solid #e6e7e8;
+    color: #292929;
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 49px;
+	line-height: 49px;
+    margin: 0;
+    padding: 0;
+    height: initial;
+	display:block;
+}
+.dropitmenu .dropdown-menu li a:hover{
+	border-bottom: 1px solid #e6e7e8!important;
+}

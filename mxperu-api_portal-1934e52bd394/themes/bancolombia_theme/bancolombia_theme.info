@@ -13,8 +13,11 @@
 ;----------// CSS
 
   ;stylesheets[all][] = css/overrides.css
+  
   stylesheets[all][] = css/main.css
+  stylesheets[all][] = css/style.css
   stylesheets[all][] = css/font.css
+  
   
   ;scripts
   scripts[] = js/script.js
